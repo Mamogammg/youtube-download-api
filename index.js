@@ -67,6 +67,7 @@ app.get("/mp4", async (req, res) => {
 
         if (isValid) {
             const videoName = (await ytdl.getInfo(url)).videoDetails.title;
+            console.log(url)
 
             res.header(
                 "Content-Disposition",
