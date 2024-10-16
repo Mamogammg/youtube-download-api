@@ -23,7 +23,7 @@
     "dependencies": {
         "cors": "^2.8.5",
         "express": "^4.17.1",
-        "ytdl-core": "github:distube/ytdl-core"
+        "@distube/ytdl-core": "^4.14.4"
     },
     "devDependencies": {}
 }
